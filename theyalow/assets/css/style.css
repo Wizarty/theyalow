@@ -89,7 +89,8 @@ body {
 
 .logo-index-link {
     position: relative;
-    display: inline-block;
+    display: flex;
+    align-items: center;
     white-space: nowrap;
     font-size: 0;
     text-decoration: none;
@@ -135,7 +136,7 @@ body {
     font-size: 0;
     line-height: 0;
     font-family: "Segoe WP", Arial, Helvetica, sans-serif;
-    background: url("../img/patterns/png/square3gray-alpha10-menu-pat.png") left top / 0.3rem;
+    background: url("../images/patterns/png/square3gray-alpha10-menu-pat.png") left top / 0.3rem;
     background-color: rgb(242, 195, 6);
 }
 
@@ -224,7 +225,7 @@ li.letter {
 
 .slider-mount-box {
     margin-bottom: -1.8rem;
-    background: url("../img/patterns/png/rhombus15x15-true-alpha.png") left top / 1.5rem 1.5rem, center / cover no-repeat url("../img/textures/jpg/header-bg.jpg");
+    background: url("../images/patterns/png/rhombus15x15-true-alpha.png") left top / 1.5rem 1.5rem, center / cover no-repeat url("../images/textures/jpg/header-bg.jpg");
 }
 
 .slider-nav {
@@ -242,7 +243,7 @@ li.letter {
     height: 0;
     margin: 0 auto;
     padding-bottom: 53.907%;
-    background: #4c4c4c url(../img/content/jpg/parrots.jpg) center center no-repeat;
+    background: #4c4c4c url(../images/content/jpg/parrots.jpg) center center no-repeat;
 }
 
 .video-native {
@@ -482,18 +483,19 @@ li.letter {
     margin: 0 auto;
     font-weight: 300;
     font-family: "Segoe UI", "Segoe WP", Tahoma, Geneva, Verdana, sans-serif;
-    background: url("../img/patterns/png/diagonal-pattern10x10-alpha6.png") left top / 0.6rem 0.6rem;
+    background: url("../images/patterns/png/diagonal-pattern10x10-alpha6.png") left top / 0.6rem 0.6rem;
     background-color: rgba(234, 234, 234, 0.4);
 }
 
 .advantages-layer-pat {
     position: relative;
     top: -0.5rem;
-    background: url("../img/patterns/png/diagonal-pattern10x10.png") left top / 0.6rem 0.6rem;
+    background: url("../images/patterns/png/diagonal-pattern10x10.png") left top / 0.6rem 0.6rem;
     background-color: rgba(234, 234, 234, 0.4);
 }
 
 ul.advantages-list {
+    display: flex;
     margin: 0 auto;
     font-size: 0;
     text-align: center;
@@ -1261,7 +1263,7 @@ h1.conv-header {
         right: 1.5rem;
     }
     .content-box {
-        background: url("../img/patterns/png/chess53x42yellow2.png") left top / 5.3rem 4.2rem;
+        background: url("../images/patterns/png/chess53x42yellow2.png") left top / 5.3rem 4.2rem;
     }
     .section-name {
         display: block;
@@ -1355,7 +1357,7 @@ h1.conv-header {
         display: none;
     }
     .convenience-box {
-        background: url("../img/patterns/png/strange-reverse10x10alpha07.png") left top / 1.5rem 1.5rem;
+        background: url("../images/patterns/png/strange-reverse10x10alpha07.png") left top / 1.5rem 1.5rem;
         background-color: #474747;
     }
     h1.conv-header {
