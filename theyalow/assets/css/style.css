@@ -607,12 +607,12 @@ img.advantages-icon {
     cursor: pointer;
 }
 
-.twitter-logo img {
+.twitter-logo {
     -webkit-transition: -webkit-transform .8s ease-in-out;
     transition: transform .8s ease-in-out;
 }
 
-.twitter-logo img:hover {
+.twitter-logo:hover {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
 }
